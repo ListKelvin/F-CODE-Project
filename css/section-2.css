@@ -1,0 +1,32 @@
+.section__2 {
+  padding: 80px 0px 65px 0px;
+  position: relative;
+  background-color: #1f1f40;
+}
+
+.section__2 .content {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section__2 .content .item {
+  padding: 0px 30px;
+}
+
+.section__2 .content .item .fas,
+.section__2 .content .item .far {
+  color: #f57479;
+  font-size: 60px;
+}
+
+.section__2 .content .item .my-4 {
+  color: #fff;
+}
+
+.section__2 .content .item p {
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+/*# sourceMappingURL=section-2.css.map */

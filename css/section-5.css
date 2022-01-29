@@ -1,0 +1,40 @@
+.section__5 {
+  padding: 80px 0px 65px 0px;
+  position: relative;
+  background-color: #1f1f40;
+}
+
+.section__5 .content {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section__5 .content .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 30px;
+}
+
+.section__5 .content .item .fas,
+.section__5 .content .item .far {
+  color: #f57479;
+  font-size: 50px;
+  line-height: 60px;
+  margin-right: 1.5rem;
+}
+
+.section__5 .content .item .mb-0 {
+  color: #fff;
+  font-size: 46px;
+  font-weight: 500;
+}
+
+.section__5 .content .item p {
+  color: #d4dae3;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=section-5.css.map */

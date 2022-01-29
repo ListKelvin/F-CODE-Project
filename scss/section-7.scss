@@ -1,0 +1,102 @@
+.section__Seven {
+  padding: 150px 0px;
+  position: relative;
+  &__child1 {
+    text-align: center;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+    & .TESTIMONIALS {
+      color: #f57479;
+      font-size: 20px;
+      line-height: 34px;
+      font-weight: 500;
+    }
+    & h3 {
+      margin: 7.5px 0 45px 0px;
+      font-size: 40px;
+      line-height: 50px;
+    }
+  }
+}
+.list {
+  margin: 0px 90px;
+  padding: 0px 15px;
+}
+
+.slick-slide {
+  position: relative;
+  width: 340px;
+  float: left;
+  padding: 0px 15px;
+  & .card-content {
+    text-align: center;
+    padding: 2.5rem 2rem;
+    border-bottom: 2px solid rgb(36, 36, 121);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 2px;
+    & > .content-p {
+      font-size: 17px;
+      line-height: 30px;
+      color: #848484;
+    }
+    & > span {
+      color: #f57479;
+    }
+    & > h5 {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 34px;
+      margin-top: 0.5rem;
+    }
+    & .avatar {
+      margin-bottom: 1rem;
+      position: relative;
+
+      & .img-ava {
+        border-radius: 100%;
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        position: relative;
+        left: 20px;
+        // transform: translateX(95px);
+      }
+      & .fas {
+        width: 40px;
+        height: 40px;
+        font-size: 17px;
+        border-radius: 100%;
+        border: 4px solid #fff;
+        position: relative;
+        content: "";
+        bottom: -31px;
+        background: #f57479;
+        color: #fff;
+        display: inline-block;
+        text-align: center;
+        line-height: 34px;
+        right: 25px;
+        & ::before {
+          content: "\f10e";
+        }
+      }
+    }
+  }
+}
+// @media screen and (max-width: 991.98px) {
+// }
+
+// @media only screen and (max-width: 1000px) {
+//   .img-ava {
+//     transform: translateX(4.25rem) !important;
+//   }
+// }

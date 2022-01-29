@@ -1,0 +1,56 @@
+.poster {
+  background-image: url(../picture/banner.jpg);
+  background-size: cover;
+  overflow: hidden;
+  background-position: center;
+}
+
+.poster .poster-img {
+  position: absolute;
+  content: "";
+  bottom: 0px;
+  left: 60%;
+}
+
+.poster .poster-content {
+  padding: 250px 0px 220px 0px;
+}
+
+.poster .poster-content h2 {
+  font-size: 100px;
+  line-height: 100px;
+  color: #fff;
+}
+
+.poster .poster-content p {
+  font-size: 17px;
+  color: #fff;
+}
+
+.poster .poster-content .btn {
+  padding: 12px 35px;
+  border-radius: 3px;
+  font-size: 16px;
+  display: inline-block;
+  font-weight: 500;
+  text-transform: capitalize;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  border: 1px solid;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.poster .poster-content .btn-secondary {
+  background: #1f1f40;
+  border-color: #1f1f40;
+  color: #fff;
+}
+
+.poster .poster-content .btn-secondary:hover {
+  background-color: #f57479;
+  border-color: #f57479;
+  color: #fff;
+}
+/*# sourceMappingURL=section-1.css.map */

@@ -1,0 +1,98 @@
+.overplay-9 {
+  position: absolute;
+  width: 70%;
+  left: 0px;
+  bottom: 40px;
+  padding: 1rem 1.5rem;
+}
+
+.overplay-9::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: #1f1f40;
+  left: 0;
+  top: 0;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+
+.overplay-9::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: #f57479;
+  left: 0;
+  top: 0;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+
+.overplay-9 h5 {
+  -webkit-transform: translateX(-40px);
+          transform: translateX(-40px);
+  opacity: 0;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  margin-bottom: 0px;
+  font-size: 20px;
+  line-height: 34px;
+  font-family: "Poppins", sans-serif;
+}
+
+.overplay-9 p {
+  color: rgba(255, 255, 255, 0.7);
+  -webkit-transform: translateX(-16px);
+          transform: translateX(-16px);
+  opacity: 0;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+  -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+  position: relative;
+  z-index: 1;
+}
+
+.content-9:hover .overplay-9::before {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+.content-9:hover .overplay-9::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transition-delay: 0.3s;
+          transition-delay: 0.3s;
+}
+
+.content-9:hover .overplay-9 h5 {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  opacity: 1;
+  -webkit-transition-delay: 0.4s;
+          transition-delay: 0.4s;
+}
+
+.content-9:hover .overplay-9 p {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  opacity: 1;
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
+}
+/*# sourceMappingURL=section-9.css.map */

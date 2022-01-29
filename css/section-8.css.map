@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAC;EACV,OAAO,EAAE,iBAAiB;EAC1B,gBAAgB,EAAE,OAAO;CAC1B",
+    "sources": [
+        "../scss/section-8.scss"
+    ],
+    "names": [],
+    "file": "section-8.css"
+}

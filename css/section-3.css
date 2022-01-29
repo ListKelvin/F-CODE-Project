@@ -1,0 +1,215 @@
+.about {
+  position: relative;
+}
+
+.about:before {
+  position: absolute;
+  content: "";
+  background: url("../images/about/pattern-bg.png") no-repeat;
+  width: 90%;
+  height: 100%;
+  left: 97%;
+  top: 23px;
+}
+
+.about .about-img {
+  position: relative;
+}
+
+.about .about-img .video-play {
+  position: absolute;
+  right: -70px;
+  bottom: 70px;
+}
+
+@media (max-width: 1200px) {
+  .about .about-img .video-play {
+    right: 50%;
+    bottom: 50%;
+    -webkit-transform: translate(50%, 50%);
+            transform: translate(50%, 50%);
+  }
+}
+
+.about .about-img .video-play a {
+  display: inline-block;
+  color: #fff;
+  background: #934ae4;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  border-radius: 100%;
+  padding-top: 32px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.about .about-img .video-play a:hover .fa {
+  color: #f57479;
+}
+
+.about .about-img .video-play .play-bg {
+  position: relative;
+  padding-top: 16px;
+  width: 130px;
+  height: 130px;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  text-align: center;
+}
+
+.about .about-img .video-play .play-bg::after {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  border-right: 2px solid #1f1f40;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  content: "";
+  border-radius: 100%;
+}
+
+.about .about-img:before {
+  position: absolute;
+  content: "";
+  background: url("../picture/pattern-bg.png") no-repeat;
+  width: 100%;
+  height: 100%;
+  left: -56px;
+  top: 56px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.section__3 {
+  padding: 120px 0px;
+}
+
+.section__3::before {
+  position: absolute;
+  content: "";
+  background: url(../picture/pattern-bg.png) no-repeat;
+  width: 90%;
+  height: 100%;
+  left: 97%;
+  top: 23px;
+}
+
+.btn {
+  padding: 12px 35px;
+  border-radius: 3px;
+  font-size: 16px;
+  display: inline-block;
+  font-weight: 500;
+  text-transform: capitalize;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  border: 1px solid;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: #f57479;
+  border-color: #f57479;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #1f1f40;
+  border-color: #1f1f40;
+  color: #fff;
+}
+
+.topic-3 {
+  color: #f57479;
+  font-size: 20px;
+  line-height: 34px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.content-3 {
+  margin: 1rem 0rem 1.5rem 0rem;
+  font-size: 40px;
+  line-height: 50px;
+  color: #222530;
+  font-weight: 500;
+}
+
+.modal-3 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) scale(0);
+          transform: translate(-50%, -50%) scale(0);
+  -webkit-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 560;
+  height: 315;
+  max-width: 80%;
+}
+
+.modal-3.active {
+  -webkit-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header-3 {
+  padding: 10px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.modal-header-3 .title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-header-3 .close-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-body-3 {
+  padding: 10px 15px;
+}
+
+#overlay {
+  position: fixed;
+  opacity: 0;
+  -webkit-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+/*# sourceMappingURL=section-3.css.map */
